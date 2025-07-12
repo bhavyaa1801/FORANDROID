@@ -1,0 +1,43 @@
+# === Python Bytecode and Cache ===
+_pycache_/
+*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Virtual Environments ===
+venv/
+ENV/
+.venv/
+
+# === Data Files ===
+*.csv
+*.json
+*.tsv
+*.txt
+*.db
+*.xlsx
+datasets/
+
+# === Logs and Temporary Files ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === Streamlit ===
+.streamlit/*.log
+
+# === VS Code and Editor Stuff ===
+.vscode/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === Test and Cache ===
+.cache/
+pytest_cache/
+
+# === Dynamically Created ===
+case_files_raw_logs/
